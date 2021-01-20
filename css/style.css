@@ -74,6 +74,15 @@ p {
 	margin: 10px 0;
 }
 
+.lista-imagens {
+    text-align: center
+}
+
+.lista-imagens img{
+	padding: 10px;
+	width: 512px;
+}
+
 footer {
 	background-color: #f0e3e1;
 	height: 50px;
@@ -95,6 +104,12 @@ footer {
 
 	.coluna, .content, .copyright {
 		width: 100%;
-		padding: 5px 0 0;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.lista-imagens img {
+		width: 100%;
+		padding: 10px 0;
 	}
 }
